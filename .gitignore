@@ -1,5 +1,6 @@
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
+.DS_store
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
@@ -12,3 +13,5 @@ ipython_config.py
 #   git rm -r .ipynb_checkpoints/
 
 diabetes.csv
+
+*.csv
